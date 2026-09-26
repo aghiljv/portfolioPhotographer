@@ -109,7 +109,7 @@ defineProps<{
             :to="global.available ? global.meetingLink : ''"
             target="_blank"
             rel="noopener noreferrer"
-            :label="global.available ? 'Open for new jobs' : 'Not for new jobs'"
+            :label="global.available ? 'Available for new jobs' : 'Not Available for new jobs'"
           >
             <template #leading>
               <span class="relative flex size-2">

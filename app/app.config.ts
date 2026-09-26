@@ -5,8 +5,8 @@ export default defineAppConfig({
       light: '/assets/images/about.jpg',
       alt: 'My profile picture'
     },
-    meetingLink: 'https://cal.com/aghiljosecareer/15min',
-    email: 'career@aghiljose.com',
+    meetingLink: 'https://cal.com/aghiljosebusiness/15min',
+    email: 'business@aghiljose.com',
     available: true
   },
   ui: {
