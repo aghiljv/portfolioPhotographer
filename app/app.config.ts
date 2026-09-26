@@ -29,17 +29,17 @@ export default defineAppConfig({
       'icon': 'i-simple-icons-instagram',
       'to': 'https://instagram.com/prograker',
       'target': '_blank',
-      'aria-label': 'Nuxt on Instagram'
+      'aria-label': 'Instagram'
     }, {
       'icon': 'i-simple-icons-youtube',
       'to': 'https://www.youtube.com/@aghiljv',
       'target': '_blank',
-      'aria-label': 'Nuxt on Youtube'
+      'aria-label': 'Youtube'
     }, {
       'icon': 'i-simple-icons-linkedin',
       'to': 'https://www.linkedin.com/in/aghil-jose/',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on Linkedin'
+      'aria-label': 'Linkedin'
     }]
   }
 })
