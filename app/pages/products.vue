@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('projects-page', () => {
-  return queryCollection('pages').path('/projects').first()
+const { data: page } = await useAsyncData('products-page', () => {
+  return queryCollection('pages').path('/products').first()
 })
 if (!page.value) {
   throw createError({
@@ -10,8 +10,8 @@ if (!page.value) {
   })
 }
 
-const { data: projects } = await useAsyncData('projects', () => {
-  return queryCollection('projects').all()
+const { data: products } = await useAsyncData('products', () => {
+  return queryCollection('products').all()
 })
 
 const { global } = useAppConfig()
@@ -42,7 +42,7 @@ useSeoMeta({
     <UPageSection :ui="{
       container: 'pt-0!'
     }">
-      <Motion v-for="(project, index) in projects" :key="project.title"
+      <Motion v-for="(project, index) in products" :key="project.title"
         :initial="{ opacity: 0, transform: 'translateY(10px)' }"
         :while-in-view="{ opacity: 1, transform: 'translateY(0)' }" :transition="{ delay: 0.2 * index }"
         :in-view-options="{ once: true }">
@@ -52,7 +52,7 @@ useSeoMeta({
           }">
           <template #leading>
             <span class="text-sm text-muted">
-              {{ new Date(project.date).getFullYear() }}
+              {{ project.tags[0]}}
             </span>
           </template>
           <template #footer>

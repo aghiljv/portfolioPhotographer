@@ -17,7 +17,7 @@ hero:
 about:
   title: "About Me"
   description: |
-    I’m a freelance photographer and videographer based near Augsburg, Germany, offering end-to-end media production for commercial projects, events, and visual storytelling.
+    I’m a freelance photographer and videographer based near Augsburg, Germany, offering end-to-end media production for commercial services, events, and visual storytelling.
     Equipped with full-frame cinema gear, dynamic stabilization, studio lighting, and licensed drone operations, I produce sharp, engaging, and atmospheric visual media.
 experience:
   title: Production Services
@@ -63,7 +63,7 @@ testimonials:
       description: "Director . AI Advisory . Bengaluru, India"
       avatar:
         src: "/assets/images/testimonials/james.jpg"
-  - quote: "Aghil excels at taking bold creative concepts and translating them into tangible, polished results. His drive to experiment with dynamic angles, aerial perspectives, and rich visuals produces content that stands out immediately. Highly recommended for creative visual projects."
+  - quote: "Aghil excels at taking bold creative concepts and translating them into tangible, polished results. His drive to experiment with dynamic angles, aerial perspectives, and rich visuals produces content that stands out immediately. Highly recommended for creative visual services."
     author:
       name: "Gireesan Namboothiri P"
       description: "Enterprise Architect . Trivandrum, India"

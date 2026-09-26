@@ -73,9 +73,9 @@ export default defineContentConfig({
         })
       })
     }),
-    projects: defineCollection({
+    products: defineCollection({
       type: 'data',
-      source: 'projects/*.yml',
+      source: 'products/*.yml',
       schema: z.object({
         title: z.string().nonempty(),
         description: z.string().nonempty(),
@@ -98,7 +98,7 @@ export default defineContentConfig({
     pages: defineCollection({
       type: 'page',
       source: [
-        { include: 'projects.yml' },
+        { include: 'products.yml' },
         { include: 'blog.yml' }
       ],
       schema: z.object({
