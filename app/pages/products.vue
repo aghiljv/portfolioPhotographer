@@ -52,7 +52,7 @@ useSeoMeta({
           }">
           <template #leading>
             <span class="text-sm text-muted">
-              {{ project.tags[0]}}
+              {{ project.tags[0] }}
             </span>
           </template>
           <template #footer>
