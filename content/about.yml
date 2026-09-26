@@ -1,0 +1,28 @@
+title: About Me
+description: Learn more about my journey as a Munich-based software engineer, my approach to building thoughtful digital products, and the work I care about.
+content: |
+  Hi, I'm **Aghil Jose**, a software engineer based in **Munich, Germany**. I build products that combine solid engineering with a focus on user experience, performance, and practical problem-solving.
+
+  Over the past several years, I've worked across product development, frontend engineering, and digital experiences, creating solutions that are not only functional but also meaningful for the people who use them. My work sits at the intersection of clean code, thoughtful design, and real-world product thinking.
+
+  ### My Approach
+
+  I enjoy turning complex ideas into clear, scalable, and maintainable systems. Whether I'm working on UI architecture, product features, or technical implementation, I care deeply about building experiences that feel intuitive, reliable, and easy to use.
+
+  I value collaboration, continuous learning, and writing code that stands the test of time. I believe the best engineering is rooted in understanding the user, the problem, and the constraints behind it.
+
+  ### What Drives Me
+
+  What keeps me motivated is the opportunity to solve meaningful problems and create technology that has a real impact. I enjoy learning from every project, improving my craft, and contributing to products that make a difference.
+
+  ### Beyond Work
+
+  When I'm not building or refining digital products, I enjoy exploring new ideas, staying curious about technology, and spending time in and around Munich.
+
+  You can connect with me on [LinkedIn](https://www.linkedin.com/in/aghil-jose/). Feel free to browse my [projects](/projects) or [get in touch](mailto:career@aghiljose.com) if you'd like to collaborate!
+
+# images:
+#   - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+#     alt: My coffee workspace
+#   - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+#     alt: My trip to Tokyo
